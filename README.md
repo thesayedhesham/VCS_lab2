@@ -21,4 +21,4 @@ Please make shure to update test as appropriate
 [MIT](https://github.com/thesayedhesham/VCS_lab2)
 
 
-![imgs](https://github.com/thesayedhesham/VCS_lab2/tree/main/imgs)
+![img](https://github.com/thesayedhesham/VCS_lab2/blob/main/imgs/pip_big.webp)
