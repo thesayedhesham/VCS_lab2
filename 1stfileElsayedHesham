@@ -1,0 +1,33 @@
+Elsayed Hesham
+mkdir lap2
+cd lap2
+git remote add origin http://cameronmcnz:T55tutorial@github.com/cameronmcnz/my-github-repo.git
+vi fileElsayedHesham
+git add .
+git commit -m "added 1st file"
+git push origin main
+git branch dev
+git branch test
+git checkout dev
+touch file1BranchDev
+touch file2BranchDev
+git add .
+git commit -m "added file to dev branch"
+git push origin dev
+git checkout main
+git merge dev main
+git add .
+git commit "added merged files from dev branch"
+git  branch -d/D dev	===>	delete branch	"local"
+git push origin :dev	===>	delete branch	"remote"
+git checkout test
+touch fileBranchTest
+git add .
+git commit -m "added file to test branch"
+git push origin test
+git checkout main
+git tag -a v1.4 -m		"created an annoted tag"
+git push origin v1.4
+git tag				"list tags"
+git tag -d v1.4	delete tag 	locally
+git push origin --delete v1.4	delete remote tag
